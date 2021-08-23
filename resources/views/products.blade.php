@@ -5,5 +5,7 @@
 @section('content')
     <h1>Página de produtos</h1>
 
-    <a href="/">Home</a>
+    @if ($busca != '')
+        <p>o usuario está buscando por {{$busca}}</p>
+    @endif
 @endsection
