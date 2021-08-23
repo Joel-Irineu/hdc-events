@@ -19,7 +19,7 @@ class EventController extends Controller
             'profissao' => 'programador',
             'arr' => $arr,
             'nomes' => $nomes,
-        ]);
+        ]); 
     }
 
     public function create(){
