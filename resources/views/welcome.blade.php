@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.maim')
 
-    <title>Laravel</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/scripts.js"></script>
+@section('title', 'HDC Events')
 
-</head>
-<body class="antialiased">
+@section('content')
     <h1>Index</h1>
 
     <img src="/img/banner.jpg" alt="banner" srcset="">
@@ -41,8 +34,4 @@
         $name = 'joel';
         echo $name;
     @endphp
-
-    <!-- Comentario HTML -->
-    {{-- Comentario blade --}}
-</body>
-</html>
+@endsection
