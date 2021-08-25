@@ -37,6 +37,18 @@
             </div>
           </nav>
     </header>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          @if(session('msg'))
+            <div class="alert alert-success alert-dismissible" role="alert" id="liveAlert">
+              {{session('msg')}}
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+          @endif
+        </div>
+      </div>
+    </main>
 
     @yield('content')
 
