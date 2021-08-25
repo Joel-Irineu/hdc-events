@@ -48,10 +48,8 @@
           @endif
         </div>
       </div>
+      @yield('content')
     </main>
-
-    @yield('content')
-
     <footer>
         <p>HDC Events &copy; 2021</p>
     </footer>
